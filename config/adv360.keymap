@@ -70,7 +70,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                   &trans   &trans    &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none   &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
- &kp LCTRL  &trans  &trans  &trans  &trans  &trans            &trans  &kp RALT &kp LALT   &trans  &trans   &trans   &trans   &trans  &trans  &kp RCTRL
+ &kp LCTRL  &trans  &trans  &trans  &trans  &trans            &trans  &kp LALT &kp RALT   &trans  &trans   &trans   &trans   &trans  &trans  &kp RCTRL
             >;
         };
 
