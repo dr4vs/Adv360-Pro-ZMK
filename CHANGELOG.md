@@ -4,6 +4,16 @@ Here's all notable changes and commits to both the configuration repo and the ba
 Many thanks to all those who have submitted issues and pull requests to make this firmware better!
 ## Config repo
 
+11/17/2022 - Update keymap.json to reflect new versioning macro [#269](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/pull/269)
+
+11/16/2023 - Update changelog with base ZMK update [#268](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/pull/268)
+
+11/15/2023 - Add and document the new automatic versioning system [#267](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/pull/267) 
+
+11/7/2023 - Add and document a new configuration option for extended NKRO ranges [#264](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/pull/264) 
+
+11/2/2023 - Update the documentation to note the new configuration options, other miscellaneous improvements based on feedback [#260](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/pull/260) 
+
 10/30/2023 - Update the [settings_reset.uf2](/settings-reset.uf2) file to improve reset behaviour with the new update
 
 10/20/2023 - Disable BLE privacy due to conflict, disable BLE battery reporting, change to point to new ZMK branch with minor update. Please note that due to the minor update the boards will need the [settings_reset.uf2](/settings-reset.uf2) file flashing onto each side prior to updating [#248](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/pull/248) (adv360-z3.2-2)
@@ -82,6 +92,16 @@ There have beeen 4 branches of ZMK used for the 360 Pro so far. Beta branches ar
 
 
 ### adv360-z3.2-2
+
+11/16/2023 - Fix race condition in the bluetooth code causing issues with split connectivity
+
+11/7/2023 - Put HID max NKRO usage on a config option for compatibility (`CONFIG_ZMK_HID_KEYBOARD_EXTENDED_REPORT`)
+
+11/1/2023 - Increase behaviour queue size to permit longer macro sequences to be run
+
+11/1/2023 - Change order of RGB initialisation to prevent situations where lighting could get stuck in battery reporting mode
+
+10/27/2023 - Change HID max NKRO usage to allow usage of F13-F24 and other rarely used keycodes with NKRO enabled 
 
 10/18/2023 - Disable saving certain RGB elements to flash memory to help with flash wear
 
